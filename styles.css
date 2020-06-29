@@ -1,6 +1,4 @@
-	#navbarSupportedContent {
-		display: none;
-	}
+	
 	* {
 		box-sizing: border-box;
 	}
@@ -81,6 +79,10 @@
 		height: 200px;
 		overflow: auto;
 	}
+	.navbar-toggler
+	{
+		display: none;
+	}
 	
 	/*desktop version*/
 	@media (min-width: 992px){
@@ -106,7 +108,10 @@
 	}
 	/*mobile version*/
 	@media (max-width: 767px){
-
+		.navbar-toggler
+		{
+			display: block;
+		}
 		.colmn-sm-12 {
 			float: left;
 			width: 100%;
